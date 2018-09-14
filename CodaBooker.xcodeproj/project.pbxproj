@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033F8A10214C5A6000E249BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 033F8A0F214C5A6000E249BB /* GoogleService-Info.plist */; };
+		033F8A14214C5DFA00E249BB /* BoutonCodaBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A13214C5DFA00E249BB /* BoutonCodaBook.swift */; };
+		033F8A17214C5E6500E249BB /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A16214C5E6500E249BB /* Constante.swift */; };
+		033F8A19214C5F0200E249BB /* LayerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A18214C5F0200E249BB /* LayerExt.swift */; };
+		03FA37A3214BEEBD00CF41FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA37A2214BEEBD00CF41FD /* AppDelegate.swift */; };
+		03FA37A8214BEEBD00CF41FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FA37A6214BEEBD00CF41FD /* Main.storyboard */; };
+		03FA37AA214BEEBE00CF41FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FA37A9214BEEBE00CF41FD /* Assets.xcassets */; };
+		03FA37AD214BEEBF00CF41FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FA37AB214BEEBF00CF41FD /* LaunchScreen.storyboard */; };
+		03FA37BE214BF63A00CF41FD /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA37BD214BF63A00CF41FD /* ConnectionController.swift */; };
+		93400F519C951CBC97DE3166 /* Pods_CodaBooker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CC16957C71222F36CD8495 /* Pods_CodaBooker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033F8A0F214C5A6000E249BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		033F8A13214C5DFA00E249BB /* BoutonCodaBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonCodaBook.swift; sourceTree = "<group>"; };
+		033F8A16214C5E6500E249BB /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
+		033F8A18214C5F0200E249BB /* LayerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerExt.swift; sourceTree = "<group>"; };
+		03FA379F214BEEBD00CF41FD /* CodaBooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodaBooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FA37A2214BEEBD00CF41FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03FA37A7214BEEBD00CF41FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03FA37A9214BEEBE00CF41FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FA37AC214BEEBF00CF41FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03FA37AE214BEEBF00CF41FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FA37BD214BF63A00CF41FD /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		268AE1C171D4C32A5AFD1BAA /* Pods-CodaBooker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBooker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodaBooker/Pods-CodaBooker.release.xcconfig"; sourceTree = "<group>"; };
+		2D93A0502B2A034B948158BA /* Pods-CodaBooker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBooker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodaBooker/Pods-CodaBooker.debug.xcconfig"; sourceTree = "<group>"; };
+		30CC16957C71222F36CD8495 /* Pods_CodaBooker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodaBooker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FA379C214BEEBD00CF41FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93400F519C951CBC97DE3166 /* Pods_CodaBooker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033F8A15214C5E5000E249BB /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				033F8A16214C5E6500E249BB /* Constante.swift */,
+			);
+			path = Ressource;
+			sourceTree = "<group>";
+		};
+		03FA3796214BEEBD00CF41FD = {
+			isa = PBXGroup;
+			children = (
+				03FA37A1214BEEBD00CF41FD /* CodaBooker */,
+				03FA37A0214BEEBD00CF41FD /* Products */,
+				14F33D9E0E01EA5DAE8E7C26 /* Pods */,
+				0E1B12C03E210843CB3A23C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03FA37A0214BEEBD00CF41FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FA379F214BEEBD00CF41FD /* CodaBooker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FA37A1214BEEBD00CF41FD /* CodaBooker */ = {
+			isa = PBXGroup;
+			children = (
+				033F8A15214C5E5000E249BB /* Ressource */,
+				03FA37A2214BEEBD00CF41FD /* AppDelegate.swift */,
+				03FA37BA214BF06600CF41FD /* Model */,
+				03FA37B9214BF06000CF41FD /* View */,
+				03FA37B8214BF05800CF41FD /* Controller */,
+				03FA37B5214BEEEF00CF41FD /* stroryboard */,
+				03FA37B4214BEEE200CF41FD /* Plists */,
+				03FA37A9214BEEBE00CF41FD /* Assets.xcassets */,
+			);
+			path = CodaBooker;
+			sourceTree = "<group>";
+		};
+		03FA37B4214BEEE200CF41FD /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				033F8A0F214C5A6000E249BB /* GoogleService-Info.plist */,
+				03FA37AE214BEEBF00CF41FD /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		03FA37B5214BEEEF00CF41FD /* stroryboard */ = {
+			isa = PBXGroup;
+			children = (
+				03FA37AB214BEEBF00CF41FD /* LaunchScreen.storyboard */,
+				03FA37A6214BEEBD00CF41FD /* Main.storyboard */,
+			);
+			path = stroryboard;
+			sourceTree = "<group>";
+		};
+		03FA37B8214BF05800CF41FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03FA37BD214BF63A00CF41FD /* ConnectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03FA37B9214BF06000CF41FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				033F8A13214C5DFA00E249BB /* BoutonCodaBook.swift */,
+				033F8A18214C5F0200E249BB /* LayerExt.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03FA37BA214BF06600CF41FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E1B12C03E210843CB3A23C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30CC16957C71222F36CD8495 /* Pods_CodaBooker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14F33D9E0E01EA5DAE8E7C26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D93A0502B2A034B948158BA /* Pods-CodaBooker.debug.xcconfig */,
+				268AE1C171D4C32A5AFD1BAA /* Pods-CodaBooker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FA379E214BEEBD00CF41FD /* CodaBooker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FA37B1214BEEBF00CF41FD /* Build configuration list for PBXNativeTarget "CodaBooker" */;
+			buildPhases = (
+				163F2C251FA33402E10AC195 /* [CP] Check Pods Manifest.lock */,
+				03FA379B214BEEBD00CF41FD /* Sources */,
+				03FA379C214BEEBD00CF41FD /* Frameworks */,
+				03FA379D214BEEBD00CF41FD /* Resources */,
+				3C0D98858941500C397401B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodaBooker;
+			productName = CodaBooker;
+			productReference = 03FA379F214BEEBD00CF41FD /* CodaBooker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FA3797214BEEBD00CF41FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MYD;
+				TargetAttributes = {
+					03FA379E214BEEBD00CF41FD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 03FA379A214BEEBD00CF41FD /* Build configuration list for PBXProject "CodaBooker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FA3796214BEEBD00CF41FD;
+			productRefGroup = 03FA37A0214BEEBD00CF41FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FA379E214BEEBD00CF41FD /* CodaBooker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FA379D214BEEBD00CF41FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FA37AD214BEEBF00CF41FD /* LaunchScreen.storyboard in Resources */,
+				033F8A10214C5A6000E249BB /* GoogleService-Info.plist in Resources */,
+				03FA37AA214BEEBE00CF41FD /* Assets.xcassets in Resources */,
+				03FA37A8214BEEBD00CF41FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163F2C251FA33402E10AC195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodaBooker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C0D98858941500C397401B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CodaBooker/Pods-CodaBooker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodaBooker/Pods-CodaBooker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FA379B214BEEBD00CF41FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FA37A3214BEEBD00CF41FD /* AppDelegate.swift in Sources */,
+				033F8A19214C5F0200E249BB /* LayerExt.swift in Sources */,
+				033F8A17214C5E6500E249BB /* Constante.swift in Sources */,
+				033F8A14214C5DFA00E249BB /* BoutonCodaBook.swift in Sources */,
+				03FA37BE214BF63A00CF41FD /* ConnectionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03FA37A6214BEEBD00CF41FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FA37A7214BEEBD00CF41FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03FA37AB214BEEBF00CF41FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FA37AC214BEEBF00CF41FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FA37AF214BEEBF00CF41FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FA37B0214BEEBF00CF41FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FA37B2214BEEBF00CF41FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D93A0502B2A034B948158BA /* Pods-CodaBooker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E287YU8N3Y;
+				INFOPLIST_FILE = "$(SRCROOT)/CodaBooker/Plists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Myd.CodaBooker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03FA37B3214BEEBF00CF41FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268AE1C171D4C32A5AFD1BAA /* Pods-CodaBooker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E287YU8N3Y;
+				INFOPLIST_FILE = "$(SRCROOT)/CodaBooker/Plists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Myd.CodaBooker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FA379A214BEEBD00CF41FD /* Build configuration list for PBXProject "CodaBooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FA37AF214BEEBF00CF41FD /* Debug */,
+				03FA37B0214BEEBF00CF41FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FA37B1214BEEBF00CF41FD /* Build configuration list for PBXNativeTarget "CodaBooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FA37B2214BEEBF00CF41FD /* Debug */,
+				03FA37B3214BEEBF00CF41FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FA3797214BEEBD00CF41FD /* Project object */;
+}
