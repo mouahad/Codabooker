@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codabook_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HSU-DB-cuI">
-                                <rect key="frame" x="20" y="166" width="335" height="335"/>
+                                <rect key="frame" x="20" y="212" width="335" height="335"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HSU-DB-cuI" secondAttribute="height" id="qBf-SK-hdZ"/>
                                 </constraints>
@@ -30,7 +30,7 @@
                         <constraints>
                             <constraint firstItem="HSU-DB-cuI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Est-3n-AWo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HSU-DB-cuI" secondAttribute="trailing" constant="20" id="QNH-wr-jv0"/>
-                            <constraint firstItem="HSU-DB-cuI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="U2j-wQ-fkn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HSU-DB-cuI" secondAttribute="bottom" constant="120" id="X4u-bc-fJ4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

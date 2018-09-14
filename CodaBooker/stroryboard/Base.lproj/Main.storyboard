@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codabook_logo" translatesAutoresizingMaskIntoConstraints="NO" id="bLe-PS-1Qi">
-                                <rect key="frame" x="20" y="165.5" width="335" height="335"/>
+                                <rect key="frame" x="20" y="212" width="335" height="335"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bLe-PS-1Qi" secondAttribute="height" id="sFD-9W-s4o"/>
                                 </constraints>
@@ -62,7 +62,7 @@
                                     <action selector="seConnecterAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oOY-Nc-xrT"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Adressa mail " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dBs-45-zgU">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Adresse mail " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dBs-45-zgU">
                                 <rect key="frame" x="20" y="100" width="335" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="MlE-P5-UTA"/>
@@ -76,7 +76,6 @@
                         <constraints>
                             <constraint firstItem="ZKP-4Y-lhh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2ex-6i-xhC"/>
                             <constraint firstItem="xCE-SJ-5rG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="48t-UC-J0W"/>
-                            <constraint firstItem="bLe-PS-1Qi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4S5-rg-Gbg"/>
                             <constraint firstItem="QHD-E8-2FH" firstAttribute="top" secondItem="xCE-SJ-5rG" secondAttribute="bottom" constant="20" id="95F-jj-ziB"/>
                             <constraint firstItem="dBs-45-zgU" firstAttribute="top" secondItem="ZKP-4Y-lhh" secondAttribute="bottom" constant="20" id="GmX-dQ-fq5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tTC-aH-kJD" secondAttribute="trailing" constant="16" id="Q5a-PM-gi7"/>
@@ -84,6 +83,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xCE-SJ-5rG" secondAttribute="trailing" constant="20" id="UDV-6f-ZT6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bLe-PS-1Qi" secondAttribute="trailing" constant="20" id="ULh-wF-j8a"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dBs-45-zgU" secondAttribute="trailing" constant="20" id="VyU-C6-H3Q"/>
+                            <constraint firstItem="tTC-aH-kJD" firstAttribute="top" secondItem="bLe-PS-1Qi" secondAttribute="bottom" constant="40" id="Y19-Dk-gBB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZKP-4Y-lhh" secondAttribute="trailing" constant="16" id="aBs-o2-NVy"/>
                             <constraint firstItem="dBs-45-zgU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oAl-cy-PAA"/>
                             <constraint firstItem="ZKP-4Y-lhh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ptc-03-bHt"/>
